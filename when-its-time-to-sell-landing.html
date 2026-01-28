@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>When It's Time to Sell - A Strategic Guide by Tom Mackrola</title>
+    <meta name="description" content="A strategic guide for homeowners facing difficult property decisions. Learn how to navigate complex real estate situations with clarity and confidence.">
+    <meta name="keywords" content="real estate, home selling, property decisions, foreclosure, reverse mortgage, Tom Mackrola, difficult property situations">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tommackrola.com/when-its-time-to-sell">
+    <meta property="og:title" content="When It's Time to Sell - A Strategic Guide by Tom Mackrola">
+    <meta property="og:description" content="A strategic guide for homeowners facing difficult property decisions. Navigate complex real estate situations with clarity and confidence.">
+    <meta property="og:image" content="https://tommackrola.com/images/when-its-time-to-sell-cover.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tommackrola.com/when-its-time-to-sell">
+    <meta property="twitter:title" content="When It's Time to Sell - A Strategic Guide by Tom Mackrola">
+    <meta property="twitter:description" content="A strategic guide for homeowners facing difficult property decisions.">
+    <meta property="twitter:image" content="https://tommackrola.com/images/when-its-time-to-sell-cover.jpg">
+
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "name": "When It's Time to Sell",
+      "author": {
+        "@type": "Person",
+        "name": "Tom Mackrola"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "House Money Press"
+      },
+      "description": "A Strategic Guide for Homeowners Facing Difficult Property Decisions",
+      "genre": "Non-fiction, Real Estate"
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Work+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --navy: #1a2332;
+            --deep-blue: #2a3f5f;
+            --gold: #d4a574;
+            --cream: #f8f6f3;
+            --gray: #6b7280;
+            --white: #ffffff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Work Sans', sans-serif;
+            line-height: 1.6;
+            color: var(--navy);
+            background: var(--cream);
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--deep-blue) 100%);
+            color: var(--white);
+            padding: 80px 20px 100px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                linear-gradient(45deg, transparent 48%, rgba(212, 165, 116, 0.03) 49%, rgba(212, 165, 116, 0.03) 51%, transparent 52%),
+                linear-gradient(-45deg, transparent 48%, rgba(212, 165, 116, 0.03) 49%, rgba(212, 165, 116, 0.03) 51%, transparent 52%);
+            background-size: 30px 30px;
+            opacity: 0.5;
+            animation: slide 20s linear infinite;
+        }
+        
+        @keyframes slide {
+            from { background-position: 0 0; }
+            to { background-position: 60px 60px; }
+        }
+        
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero-text h1 {
+            font-family: 'Libre Baskerville', serif;
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        
+        .hero-text .subtitle {
+            font-size: 1.4rem;
+            color: var(--gold);
+            margin-bottom: 30px;
+            font-weight: 300;
+            letter-spacing: 0.02em;
+        }
+        
+        .hero-text p {
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.8;
+        }
+        
+        .book-cover {
+            position: relative;
+            animation: fadeInUp 1s ease-out;
+        }
+        
+        .book-cover img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            transition: transform 0.3s ease;
+        }
+        
+        .book-cover:hover img {
+            transform: translateY(-10px) scale(1.02);
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Author Section */
+        .author-section {
+            background: var(--white);
+            padding: 80px 20px;
+            border-top: 3px solid var(--gold);
+        }
+        
+        .author-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .author-content h2 {
+            font-family: 'Libre Baskerville', serif;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: var(--navy);
+        }
+        
+        .author-content p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: var(--gray);
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            background: var(--cream);
+            padding: 80px 20px;
+        }
+        
+        .testimonials h2 {
+            font-family: 'Libre Baskerville', serif;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 60px;
+            color: var(--navy);
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .testimonial {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border-left: 4px solid var(--gold);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .testimonial:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+        }
+        
+        .testimonial p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: var(--gray);
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        
+        .testimonial cite {
+            display: block;
+            font-style: normal;
+            font-weight: 600;
+            color: var(--navy);
+            text-align: right;
+        }
+        
+        /* Email Signup */
+        .email-signup {
+            background: linear-gradient(135deg, var(--deep-blue) 0%, var(--navy) 100%);
+            color: var(--white);
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        .email-signup h2 {
+            font-family: 'Libre Baskerville', serif;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .email-signup p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        .email-form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .email-form input[type="email"] {
+            flex: 1;
+            min-width: 250px;
+            padding: 18px 24px;
+            font-size: 1rem;
+            border: 2px solid transparent;
+            border-radius: 4px;
+            font-family: 'Work Sans', sans-serif;
+            transition: all 0.3s ease;
+        }
+        
+        .email-form input[type="email"]:focus {
+            outline: none;
+            border-color: var(--gold);
+            box-shadow: 0 0 0 3px rgba(212, 165, 116, 0.2);
+        }
+        
+        .email-form button {
+            padding: 18px 48px;
+            font-size: 1rem;
+            font-weight: 600;
+            background: var(--gold);
+            color: var(--navy);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'Work Sans', sans-serif;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .email-form button:hover {
+            background: #e0b586;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(212, 165, 116, 0.3);
+        }
+        
+        .email-form button:active {
+            transform: translateY(0);
+        }
+        
+        #form-message {
+            margin-top: 20px;
+            font-size: 1.1rem;
+            min-height: 30px;
+        }
+        
+        #form-message.success {
+            color: var(--gold);
+        }
+        
+        #form-message.error {
+            color: #ff6b6b;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--navy);
+            color: var(--white);
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        footer p {
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
+            .hero-text h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-text .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .book-cover img {
+                max-width: 300px;
+            }
+            
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .email-form {
+                flex-direction: column;
+            }
+            
+            .email-form input[type="email"],
+            .email-form button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>When It's Time to Sell</h1>
+                    <p class="subtitle">A Strategic Guide for Homeowners Facing Difficult Property Decisions</p>
+                    <p>Navigate complex real estate situations with clarity and confidence. Learn proven strategies for reverse mortgages, inherited properties, foreclosure prevention, and more.</p>
+                </div>
+                <div class="book-cover">
+                    <img src="when_its_time_to_sell_cover.jpg" alt="When It's Time to Sell book cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Author Section -->
+    <section class="author-section">
+        <div class="container">
+            <div class="author-content">
+                <h2>About Tom Mackrola</h2>
+                <p>Tom Mackrola is a seasoned real estate professional with deep experience in mortgage lending and investment. A multi-million dollar producer and recipient of Top Producer Awards from the Chicago Association of Realtors, Tom has bought, sold, renovated, and managed a diverse portfolio of properties. He specializes in helping homeowners navigate complex real estate situations with clarity and strategic insight.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Clients Are Saying</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p>"My mom had a reverse mortgage. I THOUGHT I WAS IN TROUBLE. The attorneys were telling me I had to move. Tom found out and got my home sold almost immediately. I even left the closing with some money and a new tv."</p>
+                    <cite>— Chris L.</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"I met Tom when I was shopping for a condo after my husband passed. I was just going to let the bank have the house because I had a place to go but Tom helped me get a nice check I wasn't expecting."</p>
+                    <cite>— Karen C.</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"Out of all the realtors I interviewed, Tom would be the first agent where I truly felt I got one-on-one attention. He has experience with the lending industry which I found to be of use during the process of selling my house. Very hands on, Tom spoke with lenders, the inspectors, the appraisal company and other agents daily to make sure the process was moving smoothly."</p>
+                    <cite>— Xavier M.</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"I recently inherited my mom's house and I wasn't sure what to do with it. I was frustrated and unsure what to do as the expenses came in. I saw one of Tom's videos on YouTube and something he said made me call him. Am I glad I did! He is so knowledgeable and responsive. I could reach him at literally anytime of the day or night. We got 6 offers in 2 weeks. It was a much better experience than I could have ever imagined. Thanks Tom!!!!"</p>
+                    <cite>— Sandra D.</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Email Signup -->
+    <section class="email-signup">
+        <div class="container">
+            <h2>Get Notified When the Book Launches</h2>
+            <p>Be the first to know when "When It's Time to Sell" is available. Plus receive exclusive insights on navigating difficult property decisions.</p>
+            <form class="email-form" id="email-signup-form">
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <button type="submit">Notify Me</button>
+            </form>
+            <div id="form-message"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 House Money Press. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Google Sheets Integration
+        const SHEET_URL = 'YOUR_GOOGLE_SHEETS_WEB_APP_URL_HERE';
+        
+        document.getElementById('email-signup-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const email = document.getElementById('email').value;
+            const messageDiv = document.getElementById('form-message');
+            const submitBtn = this.querySelector('button');
+            
+            // Disable button and show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Submitting...';
+            messageDiv.textContent = '';
+            messageDiv.className = '';
+            
+            try {
+                const response = await fetch(SHEET_URL, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        email: email,
+                        timestamp: new Date().toISOString(),
+                        source: 'When Its Time to Sell Landing Page'
+                    })
+                });
+                
+                // With no-cors mode, we can't read the response, so we assume success
+                messageDiv.textContent = 'Thanks! We\'ll notify you when the book launches.';
+                messageDiv.className = 'success';
+                document.getElementById('email').value = '';
+                
+            } catch (error) {
+                messageDiv.textContent = 'Something went wrong. Please try again.';
+                messageDiv.className = 'error';
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Notify Me';
+            }
+        });
+    </script>
+</body>
+</html>
